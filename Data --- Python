@@ -1,0 +1,19 @@
+def data():
+    d = int(input())
+    m = int(input())
+    a = int(input())
+
+    if 0 < d <= 31 and 0 < m <= 12:
+        months = [
+            "janeiro", "fevereiro", "março", "abril", "maio", "junho",
+            "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"
+        ]
+        print(f"{d} de {months[m-1]} de {a}")
+    else:
+        print("Data inválida.")
+
+def main():
+    data()
+
+if __name__ == "__main__":
+    main()
