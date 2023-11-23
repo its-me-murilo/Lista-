@@ -1,11 +1,10 @@
-def multiplicar():
-    x = int(input("Coloque um número: "))
+def multiplicar(x):
     dobro = x * 2
     print("O dobro do número é:", dobro)
 
 def main():
-    multiplicar()
-
+    multiplicar(int(input("Coloque um número: ")))
+    
 
 if __name__ == "__main__":
     main()
